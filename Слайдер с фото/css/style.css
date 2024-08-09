@@ -1,0 +1,176 @@
+@import "font.css";
+
+
+body {
+	background-color: black;
+	margin: 107px 0 0 0;
+	padding: 0;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.content__left {
+	padding: 95px 0 0 0;
+	width: 442px;
+}
+
+.heading__text {
+	margin: 0;
+	padding: 0;
+	font-family: YesevaOne-Regular, sans-serif;
+	font-size: 27px;
+	line-height: 37.42px;
+	color: #E3B873;
+}
+
+.heading__line {
+	display: inline-block;
+	width: 92px;
+	height: 1px;
+	margin: 0 0 8px 30px;
+	background-color: #E3B873;
+}
+
+.content__left_text {
+	margin: 34px 0 0 0;
+	padding: 0;
+	font-family: NunitoSans-Regular, sans-serif;
+	font-size: 14px;
+	line-height: 26.73px;
+	color: #FFFFFF;
+}
+
+.content__left_info {
+	margin: 42px 0 0 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 190px 213px;
+	grid-template-rows: 107px 55px;
+}
+
+.info-title {
+	margin: 0;
+	padding: 0;
+	font-family: YesevaOne-Regular, sans-serif;
+	font-size: 18px;
+	color: #E3B873;
+}
+
+h4 {
+	margin: 9px 0 0 0;
+	padding: 0;
+	font-family: NunitoSans-Regular, sans-serif;
+	font-size: 13px;
+	line-height: 21.28px;
+	color: #FFFFFF;
+}
+
+.siti-text {
+	display: none;
+}
+
+.siti-text.active {
+	display: block;
+}
+
+.area-text {
+	display: none;
+}
+
+.area-text.active {
+	display: block;
+}
+
+.time-text {
+	display: none;
+}
+
+.time-text.active {
+	display: block;
+}
+
+.switch-slider {
+	margin: 70px 0 0 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.arrow {
+	cursor: pointer;
+}
+
+.arrowLeft {
+	margin: 0 29px 0 0;
+}
+
+.arrowRight {
+	margin: 0 0 0 29px;
+}
+
+.dots {
+	margin: 2px 0 0 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	gap: 18px;
+}
+
+.dots-item {
+	margin: 0;
+	padding: 0;
+	width: 10px;
+	height: 10px;
+	background: rgb(100%, 100%, 100%, 0.3);
+	border-radius: 50%;
+	transition: background 0.4s ease;
+	cursor: pointer;
+}
+
+.dots-item.active {
+	background: #FFFFFF;
+}
+
+.content__right {
+	margin: 0 0 0 50px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.slider__menu {
+	margin: 0;
+	padding: 0 0 45px 0;
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+	justify-content: start;
+}
+
+.menu__item {
+	font-family: YesevaOne-Regular, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+	color: rgb(100%, 100%, 100%, 0.3);
+}
+
+.menu__item.active {
+	color: #E3B873;
+	border-bottom: #E3B873 solid 1px;
+}
+
+.image {
+	margin: 0;
+	padding: 0;
+	width: 679px;
+	height: 482px;
+	display: none;
+}
+
+.image.active {
+	display: block;
+}
